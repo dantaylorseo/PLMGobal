@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+}
+h1 {
+	font-size: 25px;	
+}
+h2 {
+	font-size: 18px;	
+}
+.item h2 {
+	font-size: 35px;	
+}
+.btn-primary {
+	background-color: #99cc33;	
+	border-color: #85b32a;
+	color: #333366;
+	border-radius: 0px;
+}
+.btn-primary:hover {
+	background-color: #85b32a;	
+	border-color: #85b32a;
+}
+
+.thumbnail {
+	padding: 0px;
+	border-radius: 0px;
+	border-color: #ccc;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	background-color: transparent;
+	border: none;	
+}
+#breadcrumbs {
+    background-color: #f5f5f5;
+}
+.breadcrumb {
+	margin-bottom: 0;
+}
+#masthead {
+	background-color: #272088;
+	background-image: url(images/masthead.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#masthead #carousel .item {
+	color: #fff;
+	font-size: 3em;
+	padding: 10% 0;
+	text-align:left;	
+}
+#masthead #carousel .item small {
+	font-size: 2em;	
+}
+#content {
+	background-color: #fff;
+	padding: 50px 0;	
+}
+.blog #content {
+	padding: 0;
+}
+.article {
+	padding: 30px 0;	
+}
+.article h2 {
+	text-transform: uppercase;	
+}
+.home #content, .container-fluid.alt {
+	background-color: #f5f5f5;	
+}
+
+#gallery {
+	padding: 50px 0;
+}
+.logos .thumbnail, #product .thumbnail {
+	border-color: #fff;	
+}
+#footer {
+	background-color: #000;
+	color: #fff;
+	padding: 50px 0;	
+}
+#footer .fa-inverse {
+	color: #000;
+}
+#followustitle {
+	margin-top: 50px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;	
+}
+.dropdown-menu>li>a {
+	padding: 10px 20px;
+	border-bottom: solid 1px #999;	
+}
+.dropdown-menu>li:last-child>a {
+	border-bottom: none;	
+}
+/* Submenu dropdown from: http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3 */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* Centered div snippet from: https://css-tricks.com/centering-in-the-unknown/ */
+
+.centerblock {
+  text-align: center;
+  margin: 20px;
+}
+ 
+.centerblock:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+    
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+ }
+ 
+.verticalcenter {
+  display: inline-block;
+  vertical-align: middle;
+ }
+ .post_meta {
+	text-transform: uppercase;
+	font-size: 11px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px; 
+ }
+@media (min-width: 768px) {
+	.navbar-text {
+		padding-top: 48px;
+		border-top: 10px solid #fff;	
+		margin: 0;
+		font-size: 1.2em;
+	}
+	.navbar-nav>li>a {
+		padding: 50px 25px;
+		border-top: 10px solid #fff;
+		color: #999999;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		margin-right: 10px;
+	}
+	.navbar-nav>li.active>a, .navbar-nav>li>a:hover {
+		border-top: 10px solid #99cc33;	
+	}
+}
